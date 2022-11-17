@@ -2,3 +2,35 @@
     padding: 0px;
     margin: 0px;
 }
+body {
+    font: 16px Arial, Helvetica,sans-serif;
+    letter-spacing: 1em;
+    color: #000000;
+}
+#fondoDiv {
+    margin: 20px 100px;
+}
+ul , ol {
+    list-style: none;
+}
+.MenuDeSeleccion li a{
+    background-color:black ;
+    color: pink;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+    width: auto;
+}
+.MenuDeSeleccion li a:hover{
+    background-color: aquamarine;
+}
+.MenuDeSeleccion > li {
+    float: left;
+}
+.MenuDeSeleccion li ul{
+    display: none;
+    position: absolute;
+}
+.MenuDeSeleccion li:hover > ul {
+    display: block;
+}
