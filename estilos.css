@@ -7,30 +7,24 @@ body {
     letter-spacing: .1em;
     color: #000000;
 }
-#fondoDiv {
-    margin: 1% 37%;
-}
-ul , ol {
+.MenuDeSeleccion {
+    background-color: #7994b6 ;
+    padding: 0;
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
     list-style: none;
 }
 .MenuDeSeleccion li a{
-    background-color:rgba(0, 0, 0, 0.733) ;
-    color: #ffffff;
     text-decoration: none;
-    padding: 10px 12px;
+    color: #ffffff;
+    padding: 20px;
     display: block;
-    width: auto;
 }
-.MenuDeSeleccion li a:hover{
-    background-color: rgba(14, 31, 25, 0.5);
+.MenuDeSeleccion li {
+    display: inline-block;
+    text-align: center;
 }
-.MenuDeSeleccion > li {
-    float: left;
-}
-.MenuDeSeleccion li ul{
-    display: none;
-    position: absolute;
-}
-.MenuDeSeleccion li:hover > ul {
-    display: block;
+.MenuDeSeleccion li a:hover {
+    background: #ef8354;
 }
