@@ -6,9 +6,10 @@ body {
     font: 16px Arial, Helvetica,sans-serif;
     letter-spacing: .1em;
     color: #000000;
+    background: #e2eaf3 ;
 }
 .MenuDeSeleccion {
-    background-color: #7994b6 ;
+    background-color: #3a73b8 ;
     padding: 0;
     margin: auto;
     width: 90%;
