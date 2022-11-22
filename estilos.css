@@ -72,7 +72,13 @@ a:visited {
 }
 #img {
     padding: 2%;
-    max-width: 1200px;
-    max-height: 1200px;
+    max-width: 1000px;
+    max-height: 1000px;
+    position:relative
+}
+#img2 {
+    padding: 2%;
+    max-width: 400px;
+    max-height: 400px;
     position:relative
 }
