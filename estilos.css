@@ -79,3 +79,9 @@ a:visited {
     max-height: 1000px;
     position:relative
 }
+#img2 {
+    padding: 2%;
+    max-width: 800px;
+    max-height: 800px;
+    position:relative
+}
