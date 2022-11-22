@@ -3,6 +3,11 @@
     margin: 0px;
 }
 body {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
+    background-attachment: fixed;
     font: 16px Arial, Helvetica,sans-serif;
     color: #ffffff;
     background-image: url(https://cdn.pixabay.com/photo/2016/10/03/13/04/artificial-turf-1711556_960_720.jpg) ;
